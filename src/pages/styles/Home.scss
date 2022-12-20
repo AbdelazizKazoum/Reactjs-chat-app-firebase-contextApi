@@ -1,0 +1,25 @@
+.home{
+    background-color: rgb(83, 184, 205);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .container{
+        width: 70%;
+        height: 70%;
+        border-radius: 10px;
+        background-color: rgb(55, 199, 158);
+        display: flex;
+        overflow: hidden;
+
+        .sidebar{
+            flex: 1;
+            background-color: #3e3c61;
+        }
+        .chat{
+            flex: 2;
+        }
+
+    }
+}
